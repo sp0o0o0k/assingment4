@@ -1,0 +1,30 @@
+.pasta {
+    height:100%;
+    background-image: url(pasta.jpg);
+    background-size:cover;
+}
+.ramen{
+    height:100%;
+    background-image: url(ramenn.jpg);
+    background-size:cover;
+}
+.borsh{
+    height:100%;
+    background-image: url(Borsh.jpg);
+    background-size:cover;
+}
+body header img{
+float: right;
+margin-top:24.4%;
+}
+body{
+
+    background-color: burlywood;
+}
+ol{
+    list-style-type: disc;
+    background-color: rgb(69, 69, 69,0.6);
+    padding: 3px;
+    font-family:'Lucida Sans Unicode';
+    color: whitesmoke;
+}

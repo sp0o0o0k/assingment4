@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>chroniclescooking</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Chronicles cooking</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="contactusform.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <header>
+      <h1>Experience global flavors with our recipes!</h1>
+    </header>
+    <main>
+      <section>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="pasta.png" alt="Italian pasta" onmouseover="scaleImage(this)" onmouseout="resetImage(this)" />
+              <div class="card-body">
+                <h5 class="card-title">Classic Italian Pomodoro Pasta</h5>
+                <a href="pasta.html" class="btn btn-primary" id="recipe1">View Recipe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="borsh.png" alt="Russian soup" onmouseover="scaleImage(this)" onmouseout="resetImage(this)" />
+              <div class="card-body">
+                <h5 class="card-title">Borsch</h5>
+                <a href="borsh.html" class="btn btn-primary" id="recipe2">View Recipe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="korean_1024x1024.png" alt="Japanese ramen" onmouseover="scaleImage(this)" onmouseout="resetImage(this)" />
+              <div class="card-body">
+                <h5 class="card-title">Ramen</h5>
+                <a href="ramen.html" class="btn btn-primary" id="recipe3">View Recipe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <audio id="sound" src="bell.mp3"></audio>
+  
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

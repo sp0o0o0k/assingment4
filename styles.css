@@ -1,0 +1,115 @@
+ 
+
+
+
+.container {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.container.visible {
+  opacity: 1;
+}
+
+#pipi{
+  background-color: burlywood;
+}
+
+
+
+html,body{
+  margin: 0;
+  padding:0;
+  height:100%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
+header li{
+  list-style:disc;
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  color:burlywood;
+}
+header li a{
+  color:burlywood;
+}
+
+header,p{
+  position: static;
+  float: both;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+/* .questions{
+  background-color: aquamarine;
+  width: 500px;
+  height: 300px;
+  float: right; 
+  margin-left: 20px;
+  margin-bottom: 300px;
+} */
+table{
+  background-color: rgb(153,153,153,0.4);
+  margin-left: 20%;
+  border-color: black;
+}
+#up{
+  border-width: 10px;
+}
+#ramen{
+  border-width: 10px;
+  background-image: url("korean.png");
+  background-size: cover;
+}
+#description{
+  border:0;
+  text-align: center;
+}
+#description a{
+color: antiquewhite;
+}
+
+main {
+  margin-left: 0;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("ingridientspan.jpg");
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+footer{
+  background-color: #3e3e3e;
+  height: 190px;
+}
+footer li{
+  text-align: center;
+  list-style: none;
+}
+.footer{
+  margin:auto;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

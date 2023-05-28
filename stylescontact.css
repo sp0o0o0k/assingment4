@@ -1,0 +1,69 @@
+body {
+    background-color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100%
+}
+html{
+    margin:0;
+}
+
+i {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: decimal;
+}
+form {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 98%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:grid;
+}
+button{
+    margin-left: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #dd5f5f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+footer{
+    background-color: green;
+}
+blockquote {
+    margin-left: 0;
+    padding-left: 10px;
+}
+blockquote bdo{
+    font-family: Impact;
+    font-size: 30px;
+    color:wheat;
+}
+#quatation{
+    margin-top: 10%;
+    margin-left:25%;
+    font-family: Impact;
+    font-size: 30px;
+    color:wheat;
+}
+.head{
+    background-color: darkkhaki;
+}
